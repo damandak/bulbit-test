@@ -13,13 +13,24 @@
  */
 
 @font-face {
-    font-family: 'Futura';
-    src: url('/assets/Futura.otf') format('otf');
+    font-family: 'FuturaCondensedExtraBold';
+    src: url('assets/futura.eot');
+    src: url('assets/futura.eot') format('embedded-opentype'),
+    url('assets/futura.woff2') format('woff2'),
+    url('assets/futura.woff') format('woff'),
+    url('assets/futura.ttf') format('truetype'),
+    url('assets/futura.svg#FuturaCondensedExtraBold') format('svg');
 }
 
+
 @font-face {
-    font-family: 'Dekar';
-    src: url('/assets/Dekar.otf') format('otf');
+    font-family: 'DekarRegular';
+    src: url('assets/dekar.eot');
+    src: url('assets/dekar.eot') format('embedded-opentype'),
+    url('assets/dekar.woff2') format('woff2'),
+    url('assets/dekar.woff') format('woff'),
+    url('assets/dekar.ttf') format('truetype'),
+    url('assets/dekar.svg#DekarRegular') format('svg');
 }
 
 
@@ -34,12 +45,12 @@ input, select, textarea {
     margin-top: 15px;
     padding-left: 10px;
     width: 100%;
-    font-family: 'Dekar';
+    font-family: 'DekarRegular';
     border:0;
 }
 
 .register{
-    font-family: 'Futura';
+    font-family: 'FuturaCondensedExtraBold';
     font-size: 150%;
     border-radius: 0px;
     width: 70%;
@@ -50,7 +61,7 @@ input, select, textarea {
 }
 
 #fastLogin {
-    font-family: 'Dekar';
+    font-family: 'DekarRegular';
     font-size: 100%;
     width: 30vw;
     height: 80vh;
@@ -81,7 +92,7 @@ input, select, textarea {
 
 #lema {
     margin-top: 20px;
-    font-family: 'Dekar';
+    font-family: 'DekarRegular';
     font-size: 40px;
     color: #e93f24;
 }
@@ -100,18 +111,18 @@ input, select, textarea {
 
 
 ::-webkit-input-placeholder { /* WebKit browsers */
-    font-family: 'Dekar';
+    font-family: 'DekarRegular';
     font-size: 130%;
 }
 :-moz-placeholder { /* Mozilla Firefox 4 to 18 */
-    font-family: 'Dekar';
+    font-family: 'DekarRegular';
     font-size: 130%;
 }
 ::-moz-placeholder { /* Mozilla Firefox 19+ */
-    font-family: 'Dekar';
+    font-family: 'DekarRegular';
     font-size: 130%;
 }
 :-ms-input-placeholder { /* Internet Explorer 10+ */
-    font-family: 'Dekar';
+    font-family: 'DekarRegular';
     font-size: 130%;
 }

@@ -1,0 +1,9 @@
+@font-face {
+    font-family: 'DekarRegular';
+    src: url('dekar.eot');
+    src: url('dekar.eot') format('embedded-opentype'),
+         url('dekar.woff2') format('woff2'),
+         url('dekar.woff') format('woff'),
+         url('dekar.ttf') format('truetype'),
+         url('dekar.svg#DekarRegular') format('svg');
+}
