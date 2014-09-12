@@ -1,0 +1,117 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require_self
+ *= require_tree .
+ */
+
+@font-face {
+    font-family: 'Futura';
+    src: url('/assets/Futura.otf') format('otf');
+}
+
+@font-face {
+    font-family: 'Dekar';
+    src: url('/assets/Dekar.otf') format('otf');
+}
+
+
+
+#welcomeMain {
+}
+
+input, select, textarea {
+    height: 40px;
+    font-size: 100%;
+    border-radius: 5px;
+    margin-top: 15px;
+    padding-left: 10px;
+    width: 100%;
+    font-family: 'Dekar';
+    border:0;
+}
+
+.register{
+    font-family: 'Futura';
+    font-size: 150%;
+    border-radius: 0px;
+    width: 70%;
+    height: 60px;
+    background-color: #e93f24;
+    color: white;
+    border:0;
+}
+
+#fastLogin {
+    font-family: 'Dekar';
+    font-size: 100%;
+    width: 30vw;
+    height: 80vh;
+    margin-top: 20px;
+    padding-right: 50px;
+    padding-left: 50px;
+    display:inline-block;
+    background-color: #ededed;
+    border-radius: 20px;
+    vertical-align: middle;
+}
+#loginTitulo {
+    margin-top: 20px;
+    font-size: 40px;
+    color: #e93f24;
+    padding-top: 20px;
+}
+
+
+#bulbitLogo {
+    width: 40vw;
+    margin-top: 100px;
+    padding-right:50px;
+    display:inline-block;
+    vertical-align: top;
+
+}
+
+#lema {
+    margin-top: 20px;
+    font-family: 'Dekar';
+    font-size: 40px;
+    color: #e93f24;
+}
+
+.mainLogo
+{
+    width: 255px;
+    height: 237px;
+}
+
+.downArrow
+{
+    margin-top: 20px;
+    margin-down: 15px;
+}
+
+
+::-webkit-input-placeholder { /* WebKit browsers */
+    font-family: 'Dekar';
+    font-size: 130%;
+}
+:-moz-placeholder { /* Mozilla Firefox 4 to 18 */
+    font-family: 'Dekar';
+    font-size: 130%;
+}
+::-moz-placeholder { /* Mozilla Firefox 19+ */
+    font-family: 'Dekar';
+    font-size: 130%;
+}
+:-ms-input-placeholder { /* Internet Explorer 10+ */
+    font-family: 'Dekar';
+    font-size: 130%;
+}

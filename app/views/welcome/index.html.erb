@@ -1,0 +1,49 @@
+<div id="welcomeMain" align="center">
+
+  <div id="bulbitLogo">
+
+    <%= image_tag("bulbitLogo.png", :class => "mainLogo") %>
+    <div id="lema" align="center">
+      Ideas que sirven
+    </div>
+
+  </div>
+
+  <div id="fastLogin" align="left">
+
+    <div id="loginTitulo" align="center">
+      ¡Regístrate Ahora!
+    </div>
+
+    <%= form_for :user do |f| %>
+
+        <p>
+          <%= f.text_field :name , :placeholder => "Nombre" %>
+        </p>
+
+        <p>
+          <%= f.text_field :surname , :placeholder => "Apellido"  %>
+        </p>
+
+        <p>
+          <%= f.text_field :mail , :placeholder => "Correo"  %>
+        </p>
+
+        <p>
+          <%= f.password_field :password , :placeholder => "Contraseña"  %>
+        </p>
+
+        <p align="center">
+          <%= f.submit "INICIAR", :class => "register" %>
+        </p>
+
+    <% end %>
+
+  </div>
+
+</div>
+<div align="center">
+  <%= image_tag("downarrow.png", :class => "downArrow") %>
+
+</div>
+
